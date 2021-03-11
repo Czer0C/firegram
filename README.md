@@ -30,7 +30,7 @@
 ### Create a .env file to store your firebase SDK info
 
 |ENV NAME|VALUE|
-|--------|-----|
+|:--------|:-----|
 |REACT_APP_API_KEY|apiKey
 |REACT_APP_AUTH_DOMAIN|authDomain
 |REACT_APP_PROJECT_ID|projectId
