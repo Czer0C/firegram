@@ -1,5 +1,7 @@
 ## Photo Gallery App
 
+### Forked from https://github.com/iamshaunjp/firegram
+
 * React + Firebase + Typescript 
 
 * Allows uploading images and features two display grid mode: 
