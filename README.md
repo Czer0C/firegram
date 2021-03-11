@@ -29,6 +29,8 @@
 
 ### Create a .env file to store your firebase SDK info
 
+**You can change the Env name however you want but remember that it must start with `REACT_APP_` or they will not be recognized for some reasons**
+
 |ENV NAME|VALUE|
 |:--------|:-----|
 |REACT_APP_API_KEY|apiKey
