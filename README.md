@@ -1,8 +1,9 @@
-# firegram - test
-Starter &amp; final course files for the FireGram tutorial (React, Firebase &amp; Framer Motion) on Brad Traversy's YouTube channel.
+## Photo Gallery App
 
-Link to video - https://www.youtube.com/watch?v=vUe91uOx7R0&t=652s
+## React + Firebase 
 
-### Using the files
-* To see the starter files, select the 'starter' branch.
-* To see the final files, select the 'final' branch.
+## Allows uploading images and features two display grid mode: Grid and Masonry (based on width and height)
+
+## Only PNG and JPEG allowed - Incorrect format will be rejected
+
+## Uploaded files are stored in Firebase Storage - Details about each file are stored in Cloud Firestore

@@ -1,0 +1,26 @@
+.img-grid {
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 2em;
+}
+
+.img-masonry {
+  display: grid;
+  gap: 2em;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-auto-flow: row dense;
+
+}
+
+/* Medium screens */
+@media screen and (min-width: 600px) {
+  .img-masonry > .card-tall {
+    grid-row: span 2 / auto;
+
+  }
+
+  .img-masonry > .card-wide {
+    grid-column: span 2 / auto;
+  }
+}
