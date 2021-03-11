@@ -1,13 +1,22 @@
-## Photo Gallery App
+# Photo Gallery App
 
-### Forked from https://github.com/iamshaunjp/firegram
+## A rework of https://github.com/iamshaunjp/firegram
 
-* React + Firebase + Typescript 
+* React + Firebase + Typescript
 
-* Allows uploading images and features two display grid mode: 
+* Allows uploading images - Only PNG and JPEG allowed
+
+* Uploaded files are stored in Firebase Storage
+  
+* Details about each file are stored in Cloud Firestore
+  * createdAt
+  * url (from Firebase Storage)
+  * width
+  * height
+  * name
+
+* Two display grid mode:
   * Grid - 3 items per row
-  * Masonry - enlarge items based on width and height
+  * Masonry - **heighten** or **widen** items based on **width** and **height**
 
-* Only PNG and JPEG allowed - Incorrect format will be rejected
-
-* Uploaded files are stored in Firebase Storage - Details about each file are stored in Cloud Firestore
+* Clicking on an image modal will link to the direct link of the picture (new tab)
