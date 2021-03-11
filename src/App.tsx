@@ -3,7 +3,6 @@ import { ImageGrid } from './comps/ImageGrid/ImageGrid';
 import { Modal } from './comps/Modal/Modal';
 import Title from './comps/Title/Title';
 import { UploadForm } from './comps/UploadForm/UploadForm';
-
 interface image {
   src: string
   alt: string
